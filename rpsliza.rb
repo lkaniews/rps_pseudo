@@ -22,7 +22,7 @@ until human_score == 2 or computer_score == 2
 		paper = 2
 		scissors = 3
 	end
-	if user_choice - computer_choice = 1 
+	if user_choice - computer_choice == 1 
 		puts "You win!" 
 		human_score = human_score + 1 
 		puts "Press 1 for rock, 2 for paper, 3 for scissors"
@@ -32,7 +32,7 @@ until human_score == 2 or computer_score == 2
 		paper = 2
 		scissors = 3
 	end
-	if user_choice - computer_choice = (0-2)
+	if user_choice - computer_choice == -1
 		puts "Computer wins"
 		computer_score = computer_score + 1 
 		puts "Press 1 for rock, 2 for paper, 3 for scissors"
